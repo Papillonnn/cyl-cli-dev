@@ -1,0 +1,17 @@
+0 silly argv {
+0 silly argv   _: [ 'create' ],
+0 silly argv   lernaVersion: '3.22.1',
+0 silly argv   '$0': 'C:\\Users\\Host-438\\AppData\\Roaming\\npm\\node_modules\\lerna\\cli.js',
+0 silly argv   name: 'core'
+0 silly argv }
+1 notice cli v3.22.1
+2 verbose rootPath D:\space\cyl-cli-dev\cyl-cli-dev
+3 error Error: Command failed: git config --get user.name
+3 error
+3 error
+3 error     at makeError (D:\space\cyl-cli-dev\cyl-cli-dev\node_modules\execa\index.js:174:9)
+3 error     at Function.module.exports.sync (D:\space\cyl-cli-dev\cyl-cli-dev\node_modules\execa\index.js:338:15)
+3 error     at Object.execSync (D:\space\cyl-cli-dev\cyl-cli-dev\node_modules\@lerna\child-process\index.js:26:16)
+3 error     at CreateCommand.gitConfig (D:\space\cyl-cli-dev\cyl-cli-dev\node_modules\@lerna\create\index.js:181:34)
+3 error     at CreateCommand.initialize (D:\space\cyl-cli-dev\cyl-cli-dev\node_modules\@lerna\create\index.js:103:46)
+3 error     at D:\space\cyl-cli-dev\cyl-cli-dev\node_modules\@lerna\command\index.js:272:24
