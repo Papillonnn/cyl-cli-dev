@@ -1,0 +1,18 @@
+{
+  "name": "cyl-cli-dev",
+  "version": "1.0.0",
+  "description": "cyl-cli dev",
+  "main": "index.js",
+  "bin": {
+    "cyl": "./core/core/bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "lerna": "^3.22.1"
+  },
+  "dependencies": {}
+}
